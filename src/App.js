@@ -1,24 +1,37 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Task from './components/Task'
+import {BiSearchAlt} from 'react-icons/bi';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
+  const [searchTask, setSearchTask] = useState("");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <div className="header">
+          Task Manager App
+          <div className="search">
+            <input
+              type="text"
+              name=""
+              id=""
+              onChange={(e) => {
+                setSearchTask(e.target.value);
+              }}
+              placeholder="search ..."
+              maxLength={50}
+            />
+            <label htmlFor="">
+              <BiSearchAlt className="search_icon" />
+            </label>
+          </div>
+        </div>
+        <Task searchTask={searchTask} />
+      </div>
+      <Toaster position="bottom-left" />
+    </>
   );
 }
 

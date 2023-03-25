@@ -1,0 +1,24 @@
+.formview label {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+label p {
+    font-weight: normal;
+}
+
+.formview .priorty_zone .high {
+    color: white;
+    padding: 2px 5px;
+    background-color: #76cf9f;
+}
+.formview .priorty_zone .low {
+    color: white;
+    padding: 2px 5px;
+    background-color: #DC143C;
+}
+.formview .priorty_zone .medium {
+    color: white;
+    padding: 2px 7px;
+    background-color: #1E90FF;
+}

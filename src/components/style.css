@@ -1,0 +1,22 @@
+.task {
+    display: grid;
+    align-items: center;
+}
+.top{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    border-left: 1px solid grey;
+}
+/* .customize {
+    position: relative;
+} */
+.bottom {
+    
+}

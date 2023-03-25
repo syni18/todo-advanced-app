@@ -1,0 +1,10 @@
+.btn-primary {
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(243, 29, 136);
+    margin-right: 20px;
+}

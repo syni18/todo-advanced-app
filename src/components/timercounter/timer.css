@@ -1,0 +1,84 @@
+.timer {
+  /* border: 1px solid; */
+  display: flex;
+  margin-top: 5px;
+  margin: 0px 5px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.timer__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.timer__small-value {
+  text-align: center;
+  display: block;
+  min-width: 5vmin;
+}
+
+.timer__small-section {
+  margin: 0 2vmin;
+}
+
+.timer__small-label {
+  margin: 0.2vmin 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+.timer__small-display {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  border-radius: 50%;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 200ms;
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+
+.button_type_small {
+  width: 3vmin;
+  height: 3vmin;
+  min-width: 1.6rem;
+  min-height: 1.6rem;
+}
+
+.timer__buttons {
+  display: flex;
+}
+.downarrow {
+  color: white;
+  transform: rotate(90deg);
+}
+.uparrow {
+  transform: rotate(270deg);
+}
+
+.button_type_big {
+  width: 35px;
+  height: 35px;
+  margin: 7px;
+  font-size: 1.3rem;
+}
+
+.timer__label {
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+.timer__time-left {
+  font-size: 20px;
+  letter-spacing: -0.0rem;
+}

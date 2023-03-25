@@ -1,0 +1,45 @@
+.dropdown-container {
+    top: 80px;
+    right: 40px;
+    position: absolute;
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.3);
+	z-index: 1000;
+}
+
+.dropdown-label {
+	padding: 10px 10px;
+	border: 1px solid lightgrey;
+	border-radius: 5px 0px 0px 5px;
+	background-color: whitesmoke;
+}
+
+.dropdown-value {
+	padding: 10px 10px;
+	border: 1px solid lightgrey;
+	border-radius: 0px 5px 5px 0px;
+	color: white;
+	background-color: grey;
+	font-weight: bold;
+}
+
+.dropdown-list {
+	position: absolute;
+	top: 40px;
+	right: 0px;
+	box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.5)
+}
+
+.dropdown-item {
+	padding: 5px 10px;
+	font-weight: bold;
+	background-color: whitesmoke;
+	border-bottom: 1px solid grey;
+}
+.circle-icon {
+	height: 10px;
+	margin-right: 10px;
+    border-radius: 10px;
+}
+.dropdown-item:last-of-type {
+	border-bottom: none;
+}
